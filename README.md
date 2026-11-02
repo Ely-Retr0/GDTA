@@ -1,4 +1,4 @@
-# 🛠️ GDTA — Gestion de Taller Automotriz
+#  GDTA — Gestion de Taller Automotriz
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 1. [Características Principales](#-características-principales)
 2. [Arquitectura y Estructura de la Base de Datos](#-arquitectura-y-estructura-de-la-base-de-datos)
 3. [Guía de Instalación Rápida](#-guía-de-instalación-rapida)
@@ -24,7 +24,7 @@
 
 ---
 
-## 🚀 Características Principales
+##  Características Principales
 
 *   🔐 **Seguridad Avanzada:** Autenticación de usuarios blindada mediante hashing con **BCrypt (cost 12)** y bitácoras de auditoría en tiempo real.
 *   📦 **Control de Inventario Transaccional:** Gestión de refacciones con control de stock mínimo y prevención de condiciones de carrera.
@@ -33,7 +33,7 @@
 
 ---
 
-## 🗄️ Arquitectura de la Base de Datos
+##  Arquitectura de la Base de Datos
 
 El sistema utiliza un esquema relacional optimizado en motor InnoDB (`bdgdta`) que incluye:
 *   `usuarios`: Credenciales de acceso, roles (`ADMIN`, `MECANICO`, `CAJERO`) y estados activos.
@@ -44,7 +44,7 @@ El sistema utiliza un esquema relacional optimizado en motor InnoDB (`bdgdta`) q
 
 ---
 
-## ⚙️ Guía de Instalación Rápida
+##  Guía de Instalación Rápida
 
 1. **Base de Datos:**
    * Importa el archivo [`estructura_bdgdta.sql`](estructura_bdgdta.sql) incluido en este repositorio en tu servidor MySQL local (XAMPP, WAMP o consola) utilizando herramientas como DBeaver o phpMyAdmin.
@@ -53,7 +53,7 @@ El sistema utiliza un esquema relacional optimizado en motor InnoDB (`bdgdta`) q
 
 ---
 
-## 🔑 Credenciales por Defecto
+##  Credenciales por Defecto
 
 Al inicializar la base de datos por primera vez, el sistema crea un usuario administrador por defecto:
 *   **Usuario:** `admin`
@@ -62,7 +62,7 @@ Al inicializar la base de datos por primera vez, el sistema crea un usuario admi
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 *   **Lenguaje:** Java SE (Swing / AWT para interfaz gráfica de escritorio)
 *   **Base de Datos:** MySQL / MariaDB (Driver JDBC)

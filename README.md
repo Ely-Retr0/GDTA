@@ -1,4 +1,4 @@
-# 🛠️ GDTA — Sistema de Gestión de Taller Automotriz y Refaccionaria
+# 🛠️ GDTA — Gestion de Taler Automotriz
 
 <div align="center">
 

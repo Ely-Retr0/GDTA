@@ -1,4 +1,4 @@
-# 🛠️ GDTA — Gestion de Taler Automotriz
+# 🛠️ GDTA — Gestion de Taller Automotriz
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 
 ## 📋 Tabla de Contenidos
 1. [Características Principales](#-características-principales)
-2. [Arquitectura y Estructura de la Base de Datos](#-arquitectura-de-la-base-de-datos)
+2. [Arquitectura y Estructura de la Base de Datos](#-arquitectura-y-estructura-de-la-base-de-datos)
 3. [Guía de Instalación Rápida](#-guía-de-instalación-rapida)
 4. [Credenciales por Defecto](#-credenciales-por-defecto)
 5. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
@@ -28,7 +28,7 @@
 
 *   🔐 **Seguridad Avanzada:** Autenticación de usuarios blindada mediante hashing con **BCrypt (cost 12)** y bitácoras de auditoría en tiempo real.
 *   📦 **Control de Inventario Transaccional:** Gestión de refacciones con control de stock mínimo y prevención de condiciones de carrera.
-*   💻 **Portabilidad Total:** Empaquetado nativo para Windows (`GDTA.exe`) con JRE embebido para ejecución inmediata sin requerir instalaciones previas de Java en el equipo del cliente.
+*   💻 **Portabilidad Total:** Empaquetado nativo para Windows mediante [`GDTA.exe`](GDTA.exe) con JRE embebido para ejecución inmediata sin requerir instalaciones previas de Java en el equipo del cliente.
 *   📊 **Módulos Operativos Integrados:** Control absoluto de clientes, vehículos, órdenes de servicio, citas programadas, transacciones de pago y ventas diarias.
 
 ---
@@ -47,9 +47,9 @@ El sistema utiliza un esquema relacional optimizado en motor InnoDB (`bdgdta`) q
 ## ⚙️ Guía de Instalación Rápida
 
 1. **Base de Datos:**
-   * Importa el archivo **`estructura_bdgdta.sql`** incluido en este repositorio en tu servidor MySQL local (XAMPP, WAMP o consola) utilizando herramientas como DBeaver o phpMyAdmin.
+   * Importa el archivo [`estructura_bdgdta.sql`](estructura_bdgdta.sql) incluido en este repositorio en tu servidor MySQL local (XAMPP, WAMP o consola) utilizando herramientas como DBeaver o phpMyAdmin.
 2. **Ejecución del Sistema:**
-   * Descomprime el paquete portable y ejecuta directamente **`GDTA.exe`**.
+   * Asegúrate de tener la carpeta `jre` junto al ejecutable y abre directamente [`GDTA.exe`](GDTA.exe).
 
 ---
 

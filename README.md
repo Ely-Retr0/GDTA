@@ -19,7 +19,7 @@
 
 ---
 
-## ⚡ Propuesta de Valor
+## Propuesta de Valor
 
 **GDTA (Gestión Digital de Taller Automotriz)** no es un simple registro administrativo; es un **ERP de misión crítica** diseñado desde cero para erradicar los cuellos de botella operativos de talleres mecánicos y refaccionarias: pérdida de historial clínico vehicular, descontrol de inventario, colisiones en agendas de servicio y falta de trazabilidad financiera.
 

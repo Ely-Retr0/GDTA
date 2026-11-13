@@ -1,4 +1,8 @@
+<div align="center">
+
 <img width="378" height="460" alt="unnamed" src="https://github.com/user-attachments/assets/91d37989-46c1-49f3-b71e-f323c6bf762e" />
+
+
 # Gestion Digital de Taller Automotriz y Refaccionaria.
 
 <div align="center">
